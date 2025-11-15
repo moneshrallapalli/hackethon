@@ -1,0 +1,100 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{titlesec}
+\usepackage{latexsym,amssymb,amsmath,enumitem}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\geometry{margin=0.8cm}
+
+% Custom formatting
+\titleformat{\section}
+  {\large\bfseries\color{black}}{}{0pt}{}[\vspace{-0.2em}]
+\titlespacing*{\section}{0pt}{0.2em}{0.05em}
+
+\newcommand{\sectionline}{\vspace{-0.2em}\noindent\rule{\linewidth}{0.6pt}\vspace{-0.5em}}
+
+\titleformat{\subsection}{\normalsize\bfseries\color{black}}{}{0em}{}
+\titleformat{\subsubsection}[runin]{\bfseries}{\thesubsubsection}{1em}{}
+\renewcommand{\labelitemi}{--}
+
+\pagestyle{empty}
+
+\begin{document}
+
+%----------------------------------
+% Header
+%----------------------------------
+\begin{center}
+  \textbf{\LARGE MONESH RALLAPALLI} \\[2pt]
+  Bloomington, IN \quad $\vert$ \quad \href{mailto:moneshrallapalli@gmail.com}{moneshrallapalli@gmail.com} \quad $\vert$ \quad (812) 837-7163 \\[1pt]
+  \href{https://github.com/moneshrallapalli}{https://github.com/moneshrallapalli} \quad $\vert$ \quad \href{https://linkedin.com/in/monesh-r/}{linkedin.com/in/monesh-r/}
+\end{center}
+
+\vspace{-1.3em}
+%----------------------------------
+% Education
+%----------------------------------
+\sectionline
+\section*{Education}
+\textbf{Indiana University Bloomington (IUB)}, Bloomington, Indiana \hfill \textit{Aug 2024 -- Present}\\
+Master's in Computer Science \hfill GPA: 3.67/4.0 \\
+Relevant Coursework: Applied Algorithms, Applied Machine Learning, Software Engineering, Large Language Models, Cloud Computing, Computer Networks\\[0.1em]
+\textbf{Jain University (JGI)}, Bangalore, India \hfill \textit{Jul 2020 -- Jul 2024}\\
+Bachelor of Technology in Computer Science with Artificial Intelligence Specialization \hfill CGPA: 8.97/10 \\
+Relevant Coursework: Database Management Systems, Design and Analysis of Algorithms, Artificial Intelligence, Computer Vision, Natural Language Processing
+
+%----------------------------------
+% Skills
+%----------------------------------
+\sectionline
+\section*{Skills}
+\textbf{Languages:} Python, C, HTML \\
+\textbf{Frameworks \& Libraries:} TensorFlow, PyTorch, Sklearn, LangChain, LangGraph, FastAPI \\
+\textbf{Cloud Platforms:} AWS, Google Cloud Platform (GCP) \\
+\textbf{DevOps \& Tools:} Docker, Kubernetes, Jenkins, Git, CI/CD, JIRA \\
+\textbf{Databases:} MySQL, PostgreSQL, ChromaDB, Vector Databases \\
+\textbf{Specializations:} Machine Learning, RAG Systems, NLP, Large Language Models, Multi-Agent AI \\
+%----------------------------------
+% Experience
+%----------------------------------
+\sectionline
+\section*{Professional Experience}
+\textbf{MyEdMaster LLC}, Machine Learning Intern \hfill \textit{Jun 2025 -- Aug 2025}
+\begin{itemize}[leftmargin=1.5em, itemsep=0em, parsep=0pt]
+  \item Developed a real-time exercise assessment prototype for 3 exercise types as measured by QA manager approval and successful motion capture accuracy, by implementing MediaPipe framework and Python-based machine learning algorithms for posture analysis.
+  \item Deployed scalable cloud infrastructure as measured by successful AWS deployment and automated CI/CD pipeline, by implementing GitHub Actions and Docker containerization.
+\end{itemize}
+\textbf{Popular PG}, Machine Learning Engineer \hfill \textit{Apr 2023 -- May 2023}
+\begin{itemize}[leftmargin=1.5em, itemsep=0em, parsep=0pt]
+  \item Automated customer service inquiries for PG availability and booking processes, by developing and deploying an NLP-powered chatbot integrated with PostgreSQL database to handle common user requests.
+  \item Enhanced user engagement and search relevance as measured by user satisfaction metrics and feedback ratings, by implementing sentiment analysis for user feedback categorization and text summarization for concise property descriptions.
+  \item Established real-time database connectivity enabling instant property data access and booking updates, by integrating the chatbot with PostgreSQL database using SQL queries for dynamic information retrieval.
+\end{itemize}
+%----------------------------------
+% Projects
+%----------------------------------
+\sectionline
+\section*{Academic Projects}
+\textbf{BluePeak Scout -- AI Market Intelligence Platform} \hfill \textit{Sep 2024 -- Nov 2024}
+\begin{itemize}[leftmargin=1.5em, itemsep=0em, parsep=0pt]
+  \item Architected production-grade RAG system using LangChain and ChromaDB vector database with 4 specialized collections (competitors, trends, findings, reports) serving 25+ API endpoints and achieving <50ms semantic search latency for real-time market intelligence queries.
+  \item Orchestrated 7 autonomous AI agents using LangGraph supervisor pattern with Claude API integration, implementing competitive intelligence, trend analysis, social listening, and synthesis agents coordinated through event-driven workflows for multi-agent task delegation.
+  \item Deployed full-stack application with FastAPI backend and Next.js 14 frontend to GCP Cloud Run with Docker containerization, implementing WebSocket real-time updates, Supabase PostgreSQL database, and Redis caching achieving 80 concurrent connections per instance.
+\end{itemize}
+\textbf{No Detours -- Interactive Travel Agent Planner using LLM} \hfill \textit{Feb 2025 -- May 2025}
+\begin{itemize}[leftmargin=1.5em, itemsep=0em, parsep=0pt]
+  \item Developed an AI-powered travel planning assistant as measured by comprehensive itinerary generation with packing lists and budget estimates, by implementing Large Language Models (OpenAI GPT-4, Claude) with natural language processing for personalized travel recommendations.
+  \item Built a full-stack web application with FastAPI backend and responsive frontend as measured by seamless user experience and calendar integration functionality, by integrating multiple APIs including weather, maps, and search services.
+  \item Engineered an automated LLM evaluation system as measured by performance comparison across multiple providers using 5 key metrics, by implementing a comprehensive testing pipeline with detailed reporting and visualization capabilities.
+\end{itemize}
+%----------------------------------
+% Publications
+%----------------------------------
+\sectionline
+\section*{Publications}
+\begin{itemize}[leftmargin=1.5em, itemsep=0em, parsep=0pt]
+  \item M. Rallapalli, P. Avhad, G. P. Kumar, A. T. Sunil, B. H. Kumar and V. Kumar, "Adaptive Deep Reinforcement Learning for Robotic Manipulation in Dynamic Environments," in \textit{IEEE Transactions on Robotics and Automation}, vol. 39, no. 2, pp. 1-5, April 2024, doi: 10.1109/TRA.2024.10690981.
+  \item Monesh R, Venkataravana Nayak K, Laishram Linthoi, Munugoti Sai Ruthvik, Anusha Chakrabarti, "Haptic Feedback-Enabled Writing Skills Improvement Device," \textit{The Patent Office Journal} No. 13/2024 Dated 29/03/2024, pp. 31695.
+\end{itemize}
+\end{document}
